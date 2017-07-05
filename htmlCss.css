@@ -1,0 +1,79 @@
+h1{
+	color: white;
+	font-size: 250%;
+	margin: 0px;
+	text-decoration: none;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+h2{
+	font-size: 150%;
+	color:yellow;
+}
+h4{
+	color: white;
+	margin-bottom: 2px;
+	margin-top: 1px;
+
+}
+ul {
+	font-size: 130%;
+	color: red;
+}
+p{
+
+	font-size: 100%;
+	color:white ;
+}
+
+body{
+
+	background-image: url("ccc.jpg");
+	
+}
+img{
+	width: 400px;
+}
+#chigo{
+	width: 100px;
+}hr{
+	float: left;
+
+}
+button{
+	margin: 1px;
+}
+#clr{
+	clear: left;
+}
+input{
+	height: 38px;
+	width: 110px;
+}
+.nav{
+	background-color-width: 50%;
+	color: white;
+	list-style: none;
+	text-align: left;
+	padding: 5px 5px 5px 5px;
+	margin: 0px;
+}
+.nav >li{
+	display: inline-block;
+	padding-right: 20px;
+}
+.nav > li > a {
+	text-decoration: none;
+	color: white;
+
+}
+.nav >li > a:hover{
+	color: grey;
+}
+.nav{
+	width: 50%;
+}
+
+span{
+	widt
+}
