@@ -4,20 +4,47 @@
 		<title>Chirag Patel</title>
 
 		<link rel="stylesheet" type="text/css" href="htmlCss.css">
-		
+		<meta name="viewport" content="initial-scale=1.0">
+    	<meta charset="utf-8">
+    	<style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+     
+    </style>
 	</head>	
 	<body>
 			<h1>Chirag Patel</h1></a>
-			<ul class="nav">
+			<ul class="nav" width="100%">
 			<li><a href="#">About me</a></li>
 			<li><a href="#">Home</a></li>
 			<li><a href="#">Work</a></li>
 			<li><a href="#">Contact</a></li>
 		</ul>
-			<hr width="50%">
-			<div id="clr">
-				<img src="chiggi.jpg"width=100%>
-			</div>
+			<hr width=100%></hr>
+			<div id="clr"></div>
+			<div class="left">	<img src="chiggi.jpg"></div>
+			
+			<div id="clr"></div>
+       <script>
+
+      function initMap() {
+        var myLatLng = {lat:37.529933 , lng: -121.985318};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Hello World!'
+        });
+      }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC37BayQOzOCGRjTqtkH4u7vZYGEKuxL74&callback=initMap"
+    async defer></script>
 		
 
 
@@ -33,9 +60,8 @@
 			As you can see iam a computer science major iam very much intrested on UI side,</br>
 			iam trying my best to be in there and i love to work on Linux Enviorment,</br> I wish i can join be a system administrator.</p>
 			<span><a href="https://www.facebook.com/chirag.patel.733450"><input type="image" src="fff.png" alt="SUBMIt"></a>
-				  <a href="https://www.instagram.com/chirag_52/?hl=en"><input type="image" src="insta.jpg" alt="SUBMIt"></a>
+				  <a href="https://www.instagram.com/chirag_52/?hl=en"><input type="image" src="InstagramLogo.png" alt="SUBMIt"></a>
 				   <a href="https:www.linkedin.com/in//chirag-patel-b9109bb0"><input type="image" src="lin.png" alt="SUBMIt"></a>
 			</span>
+			
 	</body>
-	</html>
-+
