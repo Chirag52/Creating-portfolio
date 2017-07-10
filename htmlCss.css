@@ -23,16 +23,14 @@ ul {
 p{
 
 	font-size: 100%;
-	color:white ;
+	color:black ;
 }
 
 body{
-
-	background-image: url("ccc.jpg");
-	
+	background-color: #e6d7ca;
 }
 img{
-	width: 400px;
+	width: 40%;
 }
 #chigo{
 	width: 100px;
@@ -44,15 +42,17 @@ button{
 	margin: 1px;
 }
 #clr{
-	clear: left;
+	clear: both;
 }
 input{
 	height: 38px;
-	width: 110px;
+	width: 120px;
+	margin-right: 10px;
 }
 .nav{
-	background-color-width: 50%;
-	color: white;
+	color: black;
+	background-color: black;
+	background-color-width:100%;
 	list-style: none;
 	text-align: left;
 	padding: 5px 5px 5px 5px;
@@ -68,12 +68,28 @@ input{
 
 }
 .nav >li > a:hover{
-	color: grey;
+	color: #b5b3b1;
+
 }
-.nav{
-	width: 50%;
+.nav >li > a.active{
+	background-color: #55fde6;
+}
+.nav .icon{
+	display: none;
 }
 
-span{
-	widt
-}
+  #map {
+        height: 40%;
+        width: 40%;
+        float: left;
+        position: relative;
+        margin-left: 0%;
+      }
+      html, body {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+      }
+      .left{
+      	float:left;
+      }
